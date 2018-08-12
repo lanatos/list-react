@@ -1,0 +1,29 @@
+.noshow {
+  opacity:0.1;
+  filter:alpha(opacity=10);
+  -moz-opacity:0.1;
+}
+.errorApp {
+  color:red;
+}
+.list-items {
+  display: flex;
+  flex-direction: column; 
+  justify-content: flex-end;
+  padding:10px 0 10px 0;
+}
+.list-item {
+  display: flex;
+  flex-direction: row;
+  border-bottom:1px solid #999;
+  align-self:center;
+}
+.title-item {
+  width:300px;
+  padding:10px 0 10px 0;
+}
+.button-item {
+  width:100px;
+  text-align:center;
+  margin:2px 0 2px 0;
+}
